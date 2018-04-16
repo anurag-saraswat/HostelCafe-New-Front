@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.card { background: #FECE1A; width: 95%; height: auto; padding-bottom:80px; }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+	height: auto;
+	
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+	border-radius: 10%;
+	margin:5px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;font-size: 25px;
+}
+
+</style>
+</head>
+<body  style="background: url(images/heart-3280747_1280.jpg);">
+	<table><tr><td><a href="index.html"><img src="images/logo.png" style="width: 40%"></a></td><td></td></tr></table>
+	<center><div id="inner">
+<center><div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/IMG_20180413_143924.jpg" alt="Jane" style="width:  100%">
+		<img src="images/IMG_20180413_142730.jpg" alt="Jane" style="width:  70%">
+      <div class="container">
+        <h2>DONATE</h2>
+        <p class="title">HOSTELCAFE</p>
+      </div>
+    </div>
+  </div>
+		</div></center>
+		</div>
+		<center><div style="color: #fff;
+margin: 0 0 10px; padding: 10px;background-color: #181A1C;
+			font-weight: 150px;"><p>&copy; 2018 Hostel<a href="http://hostelcafe.com" style="color:#FECE1A ">Cafe</a></p></div></center>
+</body>
+</html>
